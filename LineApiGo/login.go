@@ -11,7 +11,7 @@ import (
 	"net/http"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	sqlogin "github.com/ch31212y/lineapigo/secondaryqrcodeloginservice"
+	sqlogin "github.com/Mindnmy/lineapigo/secondaryqrcodeloginservice"
 	ser "github.com/ch31212y/lineapigo/talkservice"
 	talk "github.com/ch31212y/lineapigo/talkservice"
 )
