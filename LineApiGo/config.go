@@ -23,7 +23,7 @@ var systemVersion map[string]string = map[string]string{
 	"LITE":   "10.0",
 	"MAC":    "10.15.1",
 	"CHROME": "1",
-	"IOS":    "13.4.1",
+	"IOS":    "113.7",
 	// "CHROME": "81.0",
 }
 
@@ -31,7 +31,7 @@ var appVersion map[string]string = map[string]string{
 	"LITE":   "2.14.0",
 	"MAC":    "5.24.1",
 	"CHROME": "2.3.9",
-	"IOS":    "10.9.0",
+	"IOS":    "10.1.1",
 }
 
 // GetUserAgent This func will return UserAgent for line
@@ -62,7 +62,7 @@ func GetLineApplication(appType string) string {
 	case "MAC":
 		return "DESKTOPMAC\t" + appVersion["MAC"] + "\tOS X\t" + systemVersion["MAC"]
 	case "IOS":
-		return "IOS\t" + appVersion["IOS"] + "\tiOS\t" + systemVersion["IOS"]
+		return "IOS\t" + appVersion["IOS"] + "\tiPhone OS\t" + systemVersion["IOS"]
 	case "CHROME":
 		return "CHROMEOS\t" + appVersion["CHROME"] + "\tChrome_OS\t" + systemVersion["CHROME"]
 	default:
