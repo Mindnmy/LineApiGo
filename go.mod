@@ -1,4 +1,4 @@
-module github.com/ch31212y
+module github.com/Mindnmy/
 
 go 1.15
 
