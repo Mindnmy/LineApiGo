@@ -7,7 +7,7 @@ package lineapigo
 import (
 	"log"
 
-	sqlogin "github.com/ch31212y/lineapigo/secondaryqrcodeloginservice"
+	sqlogin "github.com/Mindnmy/lineapigo/secondaryqrcodeloginservice"
 )
 
 // CreateQrSession create qr session for SecondaryQRLogin
